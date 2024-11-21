@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: ""
+	icon: "sophisticatedbackpacks:backpack"
+	id: "022C904E906D5A56"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47B10964E99A5A15"]
+			id: "007D04BEECF725B1"
+			rewards: [
+				{
+					count: 2
+					id: "63DA263389B2E2F8"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7633AF7A8B8DE251"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			subtitle: "Craft your first Basic Backpack."
+			tasks: [{
+				id: "69AF29B256D1DA14"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "First Backpack"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["007D04BEECF725B1"]
+			description: [""]
+			id: "24DC1770F0565E08"
+			rewards: [
+				{
+					count: 3
+					id: "332D20E2E1C6B193"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "6258AE6DC707C7EE"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6B0F0CBB63B696B1"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "Your Normal Backpack needs a little more durability and space. Upgrade it to a Copper Backpack"
+			tasks: [{
+				id: "29DDEB45961ADC1B"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "Upgrade to Copper Backpack"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24DC1770F0565E08"]
+			id: "4E00131351A2AE10"
+			rewards: [
+				{
+					count: 3
+					id: "5BB715DC340EA84B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "34DF4C93F4E5810B"
+					item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+					type: "item"
+				}
+			]
+			subtitle: " Iron Backpack is more sturdy and offers extra storage. Upgrade your Copper Backpack to an Iron Backpack"
+			tasks: [{
+				id: "218E7DF92D470646"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Upgrade to Iron Backpack"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E00131351A2AE10"]
+			id: "428DCA3ACEA77199"
+			rewards: [
+				{
+					count: 3
+					id: "636CE7B534FE5C91"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0E743F83B8DA3C61"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "A Gold Backpack increases storage even further. Upgrade your Iron Backpack to a Gold Backpack"
+			tasks: [{
+				id: "40BC43D45D57FA14"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Upgrade your Iron Backpack to a Gold Backpack"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["428DCA3ACEA77199"]
+			dependency_requirement: "all_started"
+			id: "31BA78BFB173808D"
+			rewards: [
+				{
+					count: 3
+					id: "6F674459B0F3B3B2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2A8A8963E5AF9E73"
+					item: "sophisticatedbackpacks:restock_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "The Diamond Backpack is even more spacious and durable. Upgrade your Gold Backpack to a Diamond Backpack"
+			tasks: [{
+				id: "066C4CAE32052DC8"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Upgrade to Diamond Backpack"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31BA78BFB173808D"]
+			description: [""]
+			id: "2058A52C07C76012"
+			rewards: [
+				{
+					count: 3
+					id: "2239B9E2352DB1CA"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "3C8D5120D6FBBD7C"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			subtitle: "Finally, the ultimate upgrade! Craft the Netherite Backpack to gain maximum storage and durability"
+			tasks: [{
+				id: "1F0C21F01BB0ED92"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "Upgrade to Netherite Backpack"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "47B10964E99A5A15"
+			tasks: [{
+				id: "3E080713C6C6AB2D"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47B10964E99A5A15"]
+			id: "552C41C52F7E1B32"
+			tasks: [{
+				id: "026A214C0C5E7ED8"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Sophisticated Backpacks"
+}
