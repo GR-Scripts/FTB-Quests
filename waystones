@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: ""
+	icon: "waystones:waystone"
+	id: "0B248D6A22577667"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4522B971D36AB696"
+			tasks: [{
+				id: "280642E0E9671694"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4522B971D36AB696"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "14020BCF4F2F09C4"
+			rewards: [{
+				count: 2
+				id: "5EE732460BEB8536"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			subtitle: "create a warp stone"
+			tasks: [{
+				id: "042C935F3105F2DE"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14020BCF4F2F09C4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2E301788D7F79674"
+			rewards: [
+				{
+					id: "5411706268ADA534"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3BDF68D86DD851A1"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "create a waystone with your warpstone"
+			tasks: [{
+				id: "70732B2F1A6E09D3"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"14020BCF4F2F09C4"
+				"2E301788D7F79674"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "014C199C77A351F0"
+			rewards: [
+				{
+					id: "5D98FA44ACFEFCE9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0428D319E4A0FC4C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "make a mossy waystone"
+			tasks: [{
+				id: "1975781461E442B2"
+				item: "waystones:mossy_waystone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14020BCF4F2F09C4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "35E936224CA06DBC"
+			rewards: [
+				{
+					id: "214936CB3E14A8EE"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "6F9FEE0D646B4B04"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "make a sandy waystone"
+			tasks: [{
+				id: "6EB6492ED4C991E0"
+				item: "waystones:sandy_waystone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14020BCF4F2F09C4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4DD2F7BB82555C53"
+			rewards: [
+				{
+					id: "47E70455A8C1C8F0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "459C4A7890F81F2B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "make a sharestone"
+			tasks: [{
+				id: "0FCC34998488C050"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E831E79E056C89B"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "35CA2F2B0FA7846E"
+			rewards: [{
+				id: "1EACD29E5D44B891"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "make a warp plate with your warp dust"
+			tasks: [{
+				id: "12EC1EF6F7DB2BCD"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14020BCF4F2F09C4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "33A182F5E12F98C2"
+			rewards: [
+				{
+					id: "0984C405BBB8030D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "57A551AAF9371127"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "make a portstone"
+			tasks: [{
+				id: "2D6D8DE5AD9DD0C5"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4522B971D36AB696"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2E831E79E056C89B"
+			rewards: [{
+				count: 3
+				id: "5C4E78BA828957A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "make warp dust"
+			tasks: [{
+				id: "3B8C09695282196C"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "waystones"
+}
