@@ -1,4 +1,5 @@
 {
+	autofocus_id: "33B1DAFF61E9079D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "waystones"
@@ -218,5 +219,5 @@
 			y: 1.0d
 		}
 	]
-	title: "waystones"
+	title: "Waystones"
 }

@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_chest"
+	group: ""
+	icon: "ironchest:iron_chest"
+	id: "23DFD67B0F2E37A7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1797C59BCF9F7B37"
+			tasks: [{
+				id: "3A1E8CCAB886F964"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1797C59BCF9F7B37"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5A1F84F661C43E13"
+			tasks: [{
+				id: "3FE6C7190CF1ACC6"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15D3BDC0FDE5A0E4"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "47FEB1416E185F4F"
+			tasks: [{
+				id: "38742A458FE6B49E"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A1F84F661C43E13"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "15D3BDC0FDE5A0E4"
+			tasks: [{
+				id: "46D116EEEC54B290"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FEB1416E185F4F"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2AFB5052A814E4C6"
+			tasks: [{
+				id: "4912AFCBEFEE86A6"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AFB5052A814E4C6"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "052DF388F90EBD56"
+			tasks: [{
+				id: "3267509292EAB838"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["052DF388F90EBD56"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "328453BC8DB8DC40"
+			tasks: [{
+				id: "5A45555A484C35A2"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C96EC0B2748374D"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "733CA7F16F8B8DCB"
+			tasks: [{
+				id: "1C6B7428054535FD"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3269105187321836"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "76CA98FC27E263EF"
+			tasks: [{
+				id: "2E705C22D08B185E"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44AC84EF4FE53601"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1723E08D5E8DB886"
+			invisible: true
+			tasks: [{
+				id: "5EE0C8CF6C3C4E20"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["328453BC8DB8DC40"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4C96EC0B2748374D"
+			tasks: [{
+				id: "40AB49EC8BB93690"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["733CA7F16F8B8DCB"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3269105187321836"
+			tasks: [{
+				id: "087A87B3FF11688A"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["733CA7F16F8B8DCB"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "44AC84EF4FE53601"
+			tasks: [{
+				id: "04F1674C6AD34912"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "iron chest"
+}

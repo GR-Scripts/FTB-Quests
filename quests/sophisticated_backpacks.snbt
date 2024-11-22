@@ -1,4 +1,5 @@
 {
+	autofocus_id: "49786BA97A64835D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_backpacks"
@@ -9,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["49786BA97A64835D"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "007D04BEECF725B1"
@@ -34,8 +34,8 @@
 				type: "item"
 			}]
 			title: "First Backpack"
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["007D04BEECF725B1"]
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			title: "Upgrade to Copper Backpack"
-			x: -2.0d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -96,8 +96,8 @@
 				type: "item"
 			}]
 			title: "Upgrade to Iron Backpack"
-			x: -3.0d
-			y: -1.0d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E00131351A2AE10"]
@@ -124,8 +124,8 @@
 				type: "item"
 			}]
 			title: "Upgrade your Iron Backpack to a Gold Backpack"
-			x: -4.0d
-			y: -0.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["428DCA3ACEA77199"]
@@ -152,7 +152,7 @@
 				type: "item"
 			}]
 			title: "Upgrade to Diamond Backpack"
-			x: -4.0d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -180,11 +180,11 @@
 				type: "item"
 			}]
 			title: "Upgrade to Netherite Backpack"
-			x: -3.0d
-			y: 1.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["49786BA97A64835D"]
+			dependencies: ["007D04BEECF725B1"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "3B796DD899BD3033"
@@ -1238,16 +1238,6 @@
 			x: 12.0d
 			y: -3.0d
 		}
-		{
-			id: "49786BA97A64835D"
-			tasks: [{
-				id: "4DDD5A666FB7E08F"
-				title: "start quest backpacks"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
 	]
-	title: "Sophisticated Backpacks"
+	title: "Backpacks"
 }
