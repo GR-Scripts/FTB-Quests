@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["47B10964E99A5A15"]
+			dependencies: ["49786BA97A64835D"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "007D04BEECF725B1"
@@ -184,17 +184,7 @@
 			y: 1.0d
 		}
 		{
-			id: "47B10964E99A5A15"
-			tasks: [{
-				id: "3E080713C6C6AB2D"
-				title: "start"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["47B10964E99A5A15"]
+			dependencies: ["49786BA97A64835D"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "3B796DD899BD3033"
@@ -1247,6 +1237,16 @@
 			}]
 			x: 12.0d
 			y: -3.0d
+		}
+		{
+			id: "49786BA97A64835D"
+			tasks: [{
+				id: "4DDD5A666FB7E08F"
+				title: "start quest backpacks"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 	title: "Sophisticated Backpacks"

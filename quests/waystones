@@ -9,17 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4522B971D36AB696"
-			tasks: [{
-				id: "280642E0E9671694"
-				title: "start"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4522B971D36AB696"]
+			dependencies: ["33B1DAFF61E9079D"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "14020BCF4F2F09C4"
@@ -197,7 +187,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4522B971D36AB696"]
+			dependencies: ["33B1DAFF61E9079D"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -216,6 +206,16 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			id: "33B1DAFF61E9079D"
+			tasks: [{
+				id: "3B41C993E24B3A39"
+				title: "start quest waystones"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
 		}
 	]
 	title: "waystones"
