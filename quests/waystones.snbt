@@ -47,8 +47,14 @@
 					xp: 15
 				}
 				{
-					id: "3BDF68D86DD851A1"
-					item: "minecraft:iron_ingot"
+					id: "6D43BC542F24947D"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -76,8 +82,14 @@
 					xp: 15
 				}
 				{
-					id: "0428D319E4A0FC4C"
-					item: "minecraft:iron_ingot"
+					id: "4EAED53FBAE75C58"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -102,8 +114,9 @@
 					xp: 15
 				}
 				{
-					id: "6F9FEE0D646B4B04"
-					item: "minecraft:iron_ingot"
+					count: 2
+					id: "4FFE46E2F321E9EF"
+					item: "minecraft:obsidian"
 					type: "item"
 				}
 			]
@@ -123,13 +136,19 @@
 			id: "4DD2F7BB82555C53"
 			rewards: [
 				{
-					id: "47E70455A8C1C8F0"
-					type: "xp"
-					xp: 15
+					id: "35D961C1BDFFD3AC"
+					item: "minecraft:obsidian"
+					type: "item"
 				}
 				{
-					id: "459C4A7890F81F2B"
-					item: "minecraft:iron_ingot"
+					id: "086584ACFBE64971"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
