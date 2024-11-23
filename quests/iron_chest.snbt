@@ -25,6 +25,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5A1F84F661C43E13"
+			rewards: [{
+				count: 2
+				id: "6D68CF5394CE4233"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FE6C7190CF1ACC6"
 				item: "ironchest:wood_to_copper_chest_upgrade"
@@ -38,6 +44,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "47FEB1416E185F4F"
+			rewards: [{
+				count: 2
+				id: "55DBE9CC2A95B54B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38742A458FE6B49E"
 				item: "ironchest:copper_to_iron_chest_upgrade"
@@ -51,6 +63,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "15D3BDC0FDE5A0E4"
+			rewards: [{
+				count: 3
+				id: "0878B40C5EAB939A"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46D116EEEC54B290"
 				item: "ironchest:copper_chest"
@@ -64,6 +82,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2AFB5052A814E4C6"
+			rewards: [{
+				count: 2
+				id: "093A90786F1FDEBA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4912AFCBEFEE86A6"
 				item: "ironchest:iron_chest"
@@ -77,6 +101,18 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "052DF388F90EBD56"
+			rewards: [
+				{
+					id: "67B04798A7A994D2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2CF06340648CB569"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3267509292EAB838"
 				item: "ironchest:iron_to_gold_chest_upgrade"
@@ -90,6 +126,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "328453BC8DB8DC40"
+			rewards: [{
+				count: 2
+				id: "64E3CB8F4CF4CBAA"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A45555A484C35A2"
 				item: "ironchest:gold_chest"
@@ -103,6 +145,18 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "733CA7F16F8B8DCB"
+			rewards: [
+				{
+					id: "50EDDF6A1681A4B2"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "72AD71C331397614"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C6B7428054535FD"
 				item: "ironchest:diamond_chest"
@@ -131,6 +185,12 @@
 			hide_until_deps_visible: true
 			id: "1723E08D5E8DB886"
 			invisible: true
+			rewards: [{
+				count: 3
+				id: "634B7582BB27725E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EE0C8CF6C3C4E20"
 				item: "ironchest:obsidian_chest"
@@ -144,6 +204,11 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4C96EC0B2748374D"
+			rewards: [{
+				id: "3E167E82FAC41620"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40AB49EC8BB93690"
 				item: "ironchest:gold_to_diamond_chest_upgrade"
@@ -157,6 +222,11 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "3269105187321836"
+			rewards: [{
+				id: "76D2AE0F67343E52"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "087A87B3FF11688A"
 				item: "ironchest:diamond_to_crystal_chest_upgrade"
@@ -170,6 +240,12 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "44AC84EF4FE53601"
+			rewards: [{
+				count: 2
+				id: "0F0187060C3FE717"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04F1674C6AD34912"
 				item: "ironchest:diamond_to_obsidian_chest_upgrade"
